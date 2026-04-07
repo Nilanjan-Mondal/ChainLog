@@ -238,13 +238,6 @@ function IntegrityValidator({ signer, user }) {
                   tone="text-theme-muted"
                 />
 
-                <DetailBlock
-                  label="Raw File Hash"
-                  value={result.uploadedHashRaw}
-                  mono
-                  tone="text-theme-muted"
-                />
-
                 <div className="grid gap-4 md:grid-cols-2">
                   <DetailBlock
                     label="Recorded File Name"
